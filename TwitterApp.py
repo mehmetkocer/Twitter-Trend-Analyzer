@@ -21,7 +21,7 @@ nltk.download('stopwords')
 from nltk.tokenize import TweetTokenizer
 from wordcloud import WordCloud
 from collections import Counter 
-import preprocessor as p
+import preprocessor.api as p
 import streamlit as st
 import time
 
