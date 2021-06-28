@@ -25,11 +25,11 @@ import preprocessor.api as p
 import streamlit as st
 import time
 
-# API Keys and Tokens
-consumer_key ="NG1dqMqlTEugSS4P9BL9EF4gJ"
-consumer_secret = "6Z6nMx7CRvkbHoFZoVx2xDu55Gm86EVhOFlLkaeXU7ntxTD5xG"
-access_token = "1052451114736447488-bjbqxePcjBmyHKfSiY9XOlBaNn1gl1"
-access_token_secret = "tS7Uas05p5LyGC8K5qKuja9839Ep5HGc0jbEgkoeHjYRS"
+# API Keys and Tokens 
+consumer_key =""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # Authorization and Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
